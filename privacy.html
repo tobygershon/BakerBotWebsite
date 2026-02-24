@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baker Bot — Privacy Policy</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Source Sans 3', -apple-system, sans-serif; color: #333; line-height: 1.7; background: #f8f4f0; }
+    .header { background: url('images/home-bg-outdoor-garden.jpg') center/cover no-repeat; position: relative; padding: 48px 24px 40px; text-align: center; }
+    .header::before { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,0.5); }
+    .header > * { position: relative; z-index: 1; }
+    .header h1 { font-family: 'Fraunces', serif; font-weight: 700; font-size: 32px; color: #fffbe6; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+    .header .back { color: rgba(255,251,230,0.8); text-decoration: none; font-size: 14px; display: inline-block; margin-bottom: 12px; }
+    .header .back:hover { color: #fffbe6; }
+    .content { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; margin-top: 32px; margin-bottom: 8px; color: #333; }
+    h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; margin-top: 20px; margin-bottom: 6px; color: #444; }
+    p, li { font-size: 16px; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    a { color: #e91e63; }
+    .date { color: #888; font-size: 14px; margin-bottom: 24px; }
+    footer { background: #2a2420; color: rgba(255,255,255,0.7); padding: 32px 24px; text-align: center; font-size: 14px; }
+    footer a { color: rgba(255,255,255,0.85); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <a href="/" class="back">&larr; Back to Baker Bot</a>
+    <h1>Privacy Policy</h1>
+  </div>
+
+  <div class="content">
+    <p class="date">Last updated: February 24, 2026</p>
+
+    <p>Baker Bot ("we," "us," or "our") operates the Baker Bot mobile application ("App"). This Privacy Policy explains how we collect, use, and protect your information when you use the App.</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>a. Account Information</h3>
+    <p>You may use Baker Bot anonymously or sign in with a Google account. If you sign in with Google, we receive your Google user ID to authenticate you. We do not access or store your Google email address, name, or profile photo within our systems beyond what Firebase Authentication requires to manage your session.</p>
+
+    <h3>b. User-Generated Content</h3>
+    <p>When you save recipes, we store the recipe title, source URL, ingredients, steps, notes, and associated folder information in our cloud database (Firebase Firestore). This data is linked to your user account.</p>
+
+    <h3>c. Voice Data</h3>
+    <p>When you use voice commands, your audio is recorded temporarily on your device and sent to our server for transcription using OpenAI's Whisper service. Audio recordings are processed in real time and are not permanently stored on our servers.</p>
+
+    <h3>d. Local Preferences</h3>
+    <p>We store app preferences locally on your device, including your voice tier selection, hands-free mode setting, and storage preferences. This data stays on your device and is not transmitted to our servers.</p>
+
+    <h3>e. Subscription Information</h3>
+    <p>Subscription purchases are processed by Apple (App Store) or Google (Google Play). We use RevenueCat to manage subscription status. RevenueCat receives your anonymous user ID to link your subscription entitlements. We do not have access to your payment details (credit card numbers, billing address, etc.) — these are handled entirely by Apple or Google.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li><strong>Authentication:</strong> To identify you and provide access to your saved recipes across devices.</li>
+      <li><strong>Recipe Storage:</strong> To save and sync your recipes when you choose cloud storage.</li>
+      <li><strong>Voice Processing:</strong> To transcribe your voice commands and provide voice-guided recipe navigation.</li>
+      <li><strong>AI Features:</strong> To extract recipes from URLs, modify recipes, and answer cooking questions using AI (OpenAI).</li>
+      <li><strong>Subscription Management:</strong> To verify your subscription status and provide access to the appropriate features.</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <p>We use the following third-party services that may process your data:</p>
+    <ul>
+      <li><strong>Firebase (Google):</strong> Authentication and cloud database. <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a></li>
+      <li><strong>OpenAI:</strong> Recipe extraction, AI chat, voice transcription, and text-to-speech. <a href="https://openai.com/policies/privacy-policy">OpenAI Privacy Policy</a></li>
+      <li><strong>RevenueCat:</strong> Subscription management. <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a></li>
+      <li><strong>Apple / Google:</strong> Payment processing. Subject to <a href="https://www.apple.com/legal/privacy/">Apple's</a> and <a href="https://policies.google.com/privacy">Google's</a> respective privacy policies.</li>
+    </ul>
+
+    <h2>4. Data Storage and Security</h2>
+    <p>Your recipe data is stored in Firebase Firestore with security rules that restrict access to authenticated users' own data. Data is transmitted over encrypted connections (HTTPS/TLS). While we take reasonable measures to protect your information, no method of electronic storage or transmission is 100% secure.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>Your recipes and account data are retained as long as your account is active. If you delete your account or uninstall the App, locally stored preferences are removed. To request deletion of your cloud-stored data, please contact us at the email address below.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Baker Bot is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected information from a child under 13, we will take steps to delete it.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on your jurisdiction, you may have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you.</li>
+      <li>Request correction or deletion of your data.</li>
+      <li>Object to or restrict certain processing of your data.</li>
+      <li>Request a copy of your data in a portable format.</li>
+    </ul>
+    <p>To exercise any of these rights, please contact us at the email address below.</p>
+
+    <h2>8. Microphone Permission</h2>
+    <p>Baker Bot requests microphone access solely for voice command functionality. Microphone access is only activated when you explicitly tap the record button or enable hands-free mode. We do not record audio in the background or at any other time.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of material changes by updating the "Last updated" date at the top of this page. We encourage you to review this page periodically.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us at <strong>bakerbotapp@gmail.com</strong>.</p>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/terms">Terms of Use</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/support">Support</a>
+    </div>
+    <p>&copy; 2026 Baker Bot. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
